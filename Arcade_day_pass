@@ -1,0 +1,15 @@
+customer_name= input('What is your name: ')
+number_of_passes= int(input('How many passes would you like: '))
+tokens_per_pass= 10
+price_per_pass= 5
+tokens_needed_per_game= 2
+
+total_tokens= number_of_passes*tokens_per_pass
+total_cost=number_of_passes*price_per_pass
+games_available=40
+print('=====ARCADE DAY PASS=====')
+print('Customer: ',customer_name)
+print('Passes bought: ',number_of_passes)
+print('Total tokens: ',total_tokens)
+print('Total cost: ',total_cost)
+print('Games avalible: ',games_available)
